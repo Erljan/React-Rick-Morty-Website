@@ -1,0 +1,127 @@
+
+
+.character-container{
+    height: 100%;
+    width: 100vw;
+    background-color: #0d1b2a;
+    /* text-align: center; */
+    /* position: relative; */
+}
+
+
+
+.char{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px );
+    text-align: center;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+}
+
+.char-container{
+    /* border: 1px solid black; */
+    color: wheat;
+    margin: 10px;
+    height: 390px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: inset 0 0 15px rgba(255, 255, 255, .5), 0 0 18px 3px rgba(255, 255, 255, .2)
+    
+}
+
+.char-img{
+    height: 200px;
+    padding-top: 10px;
+    margin: 0;
+
+}
+
+.char-info{
+    margin-top: 10px;
+    /* border: 1px solid white; */
+    width: 100%;
+    margin-bottom: 0;
+    padding-top: 10px;
+
+}
+
+
+.navs{
+    background-color: #0d1b2a;
+}
+
+
+.delete{
+    /* background-color: #e35f41; */
+    margin: 10px;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    color: red;
+}
+
+.delete:hover{
+    background-color: #e35f41;
+    color: white;
+}
+
+.favorite{
+    margin: 10px;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    color: rgb(95, 215, 255);
+}
+
+.favorite:hover{
+    background-color: rgb(92, 92, 254);
+    color: white;
+}
+
+button{
+    background-color: #0d1b2a;
+    color: bisque;
+    margin: 1000px;
+    box-shadow: 0 0 18px 3px rgba(255, 255, 255, .2);
+    /* outline: none;
+    border-radius: 10px; */
+}
+
+
+
+.see-details{
+    /* margin: 10px; */
+    border: none;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+}
+
+.see-details:hover{
+    transform: scale(1.1);
+}
+
+.see-more{
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+    
+/* .arrow{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 45px;
+    color:wheat;
+    position: fixed;
+    right: 30px;
+    bottom: 80px;
+    width: 30px;
+    box-shadow: 0 0 18px 3px rgba(255, 255, 255, .2)
+}
+
+.arrow:hover{
+    transform: scale(1.1);
+    color: white;
+} */
